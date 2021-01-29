@@ -1,0 +1,19 @@
+/* Global View */
+
+h1{
+    color:blue;
+}
+
+/* Tablet View */
+@media (max-width: 768px){
+    h1{
+        color:pink;
+    }
+}
+
+/* Mobile View  */
+@media (max-width: 400px){
+    h1{
+        color:black;
+    }
+}
