@@ -78,6 +78,11 @@ a{
     font-weight: bold;
 }
 
+.mob-wrapper{
+    display: none;
+}
+
+
 /* Tablet View */
 @media (max-width: 768px){
    
@@ -93,9 +98,24 @@ a{
         position: relative;
     }
 
-    header{
+    nav{
+        display: none;
+    }
+
+    .mob-wrapper{
         display: block;
+        padding-right: 30px;
+    }
+
+    .mob-nav{
+        display: none;
+        position: absolute;
         text-align: center;
+        padding-top: 2px;
+    }
+
+    .burgermenu{
+        width: 20px;
     }
 
     nav .navbutton{
@@ -110,6 +130,14 @@ a{
 
     .container{
         padding-top: 40px;
+    }
+
+    .burgerbutton{
+        display: block;
+        position: relative;
+        background-color:rgba(43, 225, 147);
+        padding: 15px 30px;
+        margin-left: -109px;
     }
 
 }
